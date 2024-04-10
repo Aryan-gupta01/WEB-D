@@ -1,0 +1,121 @@
+
+    .logo img {
+      width: 164px;
+    }
+    nav {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      font-family:'San-sarif';
+      color: #222222;
+    }
+    .first ul {
+      list-style: none;
+      display: flex;
+    }
+    .first ul li {
+      padding: 10px;
+      margin-right: 10px;
+    }
+    .first ul li img{
+        margin-left: 4px;  
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        gap: 23px;
+        margin: 70px;
+
+    }
+    .tt{
+        font-size: 50px;
+    }
+    .container p{
+        font-size: 25px;
+        width: 60vw;
+        text-align: center;
+    }
+    .container img{
+        margin-left: 8px;
+    }
+    .btn{
+        background: #00b6d1;
+        border: none;
+        padding: 13px;
+        color: white;
+        border-radius: 6px;
+        font-weight: 600;
+        cursor: pointer;
+    }
+    .download{
+        display: flex;
+        align-items: flex-end;
+        gap: 10px;
+
+      
+    }
+    .logo2{
+        font-size:25px;
+    }
+    .grid{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 32px;
+      margin-top: 65px;
+      width:900px;
+
+    }
+    .item-lang{
+      font-weight: 700;
+      text-align: center;
+      padding-bottom: 36px;
+    }
+    .item-lang1{
+      font-weight: 700;
+      text-align: center;
+      padding-bottom: 56px;
+     
+    }
+    .item{
+      text-align: center;
+      background: #f9f9f9;
+      width: 276px;
+      height: 136px;
+    }
+.btn-blue{
+  background: #00b6d1;
+  color: white;
+  padding:8px;
+  border: none;
+  border-radius: 6px;
+  margin: 5px;
+}
+.btn-green{
+  background: #5cb85c;
+  color: white;
+  padding:8px;
+  border: none;
+  border-radius: 6px;
+  margin: 5px;
+
+}
+.container2{
+  padding: 44px;
+  margin-left: 275px;
+}
+small{
+  color: rgb(118 115 115);
+  padding-top: 5px;
+}
+.ll{
+  font-size: small;
+}
+.match{
+  padding-bottom: 14px;
+}
+main{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #222222;
+}
